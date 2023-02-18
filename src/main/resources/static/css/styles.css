@@ -1,0 +1,39 @@
+body{
+	background-color:tan;
+	margin:0;
+	padding:0 ;
+	font-family:Ariel, Helvetica, sans-serif;
+}
+.header{
+	padding:30px;
+	text-align: center;
+	font-size:35px;
+	border-bottom: 1px solid #c5c6d0;
+}
+
+.row{
+	display:flex;
+	display:-wekit-flex;
+	
+}
+.column{
+	padding:10px;
+	height:auto;
+	
+}
+.column.side{
+	flex:1 ;
+	-webkit-flex:1;
+	-ms-flex:1;
+	}
+
+.column.middle{
+	flex:3 ;
+	-webkit-flex: 3;
+	-ms-flex: 3;
+	border-left:1px solid #cccccc;
+	
+}
+.navigation {
+	text-align: end;
+}
